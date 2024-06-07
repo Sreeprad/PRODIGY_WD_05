@@ -45,4 +45,4 @@ Thank you for exploring this Weather Forecast project!
 
 ---
 
-*Note: This project is developed for demonstration purposes and does not provide real-time weather data. For accurate weather forecasts, refer to reliable weather forecasting services.*
+*Note: This project is part of my internship task at Prodigy. For more details about the company, visit their [website](https://prodigyinfotech.dev/).*
