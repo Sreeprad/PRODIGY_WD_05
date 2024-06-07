@@ -1,0 +1,138 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url("https://source.unsplash.com/1600x900/?nature,landscape") no-repeat center center/cover;
+  font-size: 120%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2em;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 1em;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 120%;
+  width: 70%;
+  transition: background-color 0.3s ease;
+}
+
+input.search-bar::placeholder {
+  color: #ddd;
+}
+
+button {
+  margin-left: 0.5em;
+  border-radius: 30px;
+  border: none;
+  padding: 0.5em 1em;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+  font-size: 120%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2em;
+  color: white;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 1em;
+}
+
+.weather-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1em;
+}
+
+.city-name {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 0;
+}
+
+.local-time {
+  font-size: 1em;
+  color: white;
+}
+
+.temperature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  color: white;
+  margin: 0.1em 0;
+}
+
+.extra-info {
+  position: relative;
+  color: white;
+}
+
+.extra-info .humidity,
+.extra-info .wind-speed {
+    display: flex;
+    align-items: center;
+}
+
+.extra-info img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.weather-icon {
+  position: absolute;
+  bottom: 2em;
+  right: 3em;
+}
+
+.weather-icon img {
+  width: 100px;  /* Adjust the width to fit in the bottom right corner */
+  height: 100px; /* Adjust the height to fit in the bottom right corner */
+}
